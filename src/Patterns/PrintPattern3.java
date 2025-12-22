@@ -1,5 +1,12 @@
 package Patterns;
+/*
+OUTPUT
+1111
+2222
+3333
+4444
 
+ */
 public class PrintPattern3 {
     public static void main(String[] args) {
         for(int i = 1; i < 5; i++){
