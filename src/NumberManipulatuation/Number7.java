@@ -9,7 +9,7 @@ public class Number7 {
         int n = sc.nextInt();
         int fib1=0;
         int fib2=1;
-        int fib3=0;
+        int fib3;
         int i=1;
         System.out.println("The Fibonacci Series is: ");
         while(i<=n){
