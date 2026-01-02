@@ -1,22 +1,22 @@
 package OOPS;
 class Employee{
-    int id;
-    String name;
-    int age;
-    String salary;
-    public void work(){
+    static int id;
+    public static void work(){
+        id =20;
         System.out.println("I am working");
     }
+    String name;
     public void attendMeeting(String name){
         System.out.println(name + "  is attending meeting");
     }
 }
-public class Example {
+public class Static {
 
     public static void main(String[] args) {
+        Employee.work();
+        System.out.println(Employee.id);
         Employee emp = new Employee();
         emp.name = "John";
-        emp.work();
         emp.attendMeeting(emp.name);
     }
 }
