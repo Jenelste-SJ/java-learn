@@ -1,7 +1,0 @@
-package NumberManipulatuation;
-
-public class Number8 {
-    public static void main(String[] args) {
-
-    }
-}
