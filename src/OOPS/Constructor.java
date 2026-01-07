@@ -9,16 +9,9 @@ package OOPS;
         this.salary = salary;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public double getSalary() {
-        return salary;
+    public void display() {
+        System.out.println("Employee ID: " + this.id);
+        System.out.println("Employee Name: " + this.name);
     }
 }
 public class Constructor {
@@ -26,15 +19,10 @@ public class Constructor {
         Employeee employeee = new Employeee(1, "John", 5000);
         Employeee employeee1 = new Employeee(1, "Han", 5000);
         Employeee employeee2 = new Employeee(1, "Rock", 5000);
-        System.out.println(employeee.getName());
-        System.out.println(employeee.getSalary());
+        employeee.display();
         System.out.println("--------------------");
-
-        System.out.println(employeee1.getName());
-        System.out.println(employeee1.getSalary());
+        employeee1.display();
         System.out.println("--------------------");
-
-        System.out.println(employeee2.getName());
-        System.out.println(employeee2.getSalary());
+        employeee2.display();
     }
 }
