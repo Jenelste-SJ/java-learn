@@ -3,12 +3,17 @@ package OOPS;
     private int id;
     private String name;
     private double salary;
+
+
     public Employeee(int id, String name, double salary) {
+         System.out.println("Employee constructor");
         this.id = id;
         this.name = name;
         this.salary = salary;
     }
-
+     {
+         System.out.println("Employee class constructor");
+     }
     public void display() {
         System.out.println("Employee ID: " + this.id);
         System.out.println("Employee Name: " + this.name);
