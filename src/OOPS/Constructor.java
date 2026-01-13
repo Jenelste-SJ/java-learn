@@ -4,7 +4,9 @@ package OOPS;
     private String name;
     private double salary;
 
-
+    public Employeee(){
+        System.out.println("Employee Default constructor");
+    }
     public Employeee(int id, String name, double salary) {
          System.out.println("Employee constructor");
         this.id = id;
@@ -24,6 +26,7 @@ public class Constructor {
         Employeee employeee = new Employeee(1, "John", 5000);
         Employeee employeee1 = new Employeee(1, "Han", 5000);
         Employeee employeee2 = new Employeee(1, "Rock", 5000);
+        Employee employ = new Employee();
         employeee.display();
         System.out.println("--------------------");
         employeee1.display();
