@@ -19,14 +19,14 @@ class Professor extends Person1 {
 
 public class SingleInheritance {
     public static void main(String[] args) {
-        Professor professor = new Professor();
-        professor.name = "Harish Pathak";
-        professor.department = "Computer Science";
+        Professor1 professor1 = new Professor1();
+        professor1.name = "Harish Pathak";
+        professor1.department = "Computer Science";
 
-        System.out.println("Professor Name: " + professor.name);
-        System.out.println("Department: " + professor.department);
-        professor.introduce();
-        professor.conductLecture();
+        System.out.println("Professor Name: " + professor1.name);
+        System.out.println("Department: " + professor1.department);
+        professor1.introduce();
+        professor1.conductLecture();
     }
 }
 
