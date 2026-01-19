@@ -44,7 +44,7 @@ class Truck extends Vehicle {
     }
 }
 
-public class ConstructoeChaining {
+public class ConstructorChaining {
     public static void main(String[] args) {
 
         Car myCar = new Car("Toyota", "Corolla", 2021, 5);
