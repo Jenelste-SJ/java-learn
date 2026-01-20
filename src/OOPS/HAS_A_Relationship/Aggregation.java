@@ -1,4 +1,4 @@
-package OOPS.AggregationComposition;
+package OOPS.HAS_A_Relationship;
 
 class Engine {
     String model;
@@ -22,7 +22,7 @@ class Car {
     }
 }
 
-public class Aggregation1 {
+public class Aggregation {
     public static void main(String[] args) {
 
         Engine powerfulEngine = new Engine();
