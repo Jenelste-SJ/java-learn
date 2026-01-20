@@ -5,6 +5,7 @@ class Course {
     String courseCode;
     int enrollmentLimit;
 
+
     public Course(String courseName) {
         this(courseName, "UNSET", 100);
     }
