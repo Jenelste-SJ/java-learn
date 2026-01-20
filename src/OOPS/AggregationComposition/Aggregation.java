@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.AggregationComposition;
 
 class Charger {
     String color;
