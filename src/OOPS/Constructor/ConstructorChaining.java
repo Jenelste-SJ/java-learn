@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.Constructor;
 
 class Vehicle {
     String make;

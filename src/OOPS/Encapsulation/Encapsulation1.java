@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.Encapsulation;
 class Bank {
     private int accountNumber;
     private double balance;
@@ -34,7 +34,7 @@ class Bank {
 
     }
 }
-public class Encapsulation {
+public class Encapsulation1 {
     public static void main(String[] args) {
         Bank bank = new Bank();
         bank.setAccountNumber(1234567);

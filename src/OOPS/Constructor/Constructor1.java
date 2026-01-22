@@ -1,5 +1,8 @@
-package OOPS;
- class Employeee {
+package OOPS.Constructor;
+
+import OOPS.Employee;
+
+class Employeee {
     private int id;
     private String name;
     private double salary;
@@ -21,7 +24,7 @@ package OOPS;
         System.out.println("Employee Name: " + this.name);
     }
 }
-public class Constructor {
+public class Constructor1 {
     public static void main(String[] args) {
         Employeee employeee = new Employeee(1, "John", 5000);
         Employeee employeee1 = new Employeee(1, "Han", 5000);
