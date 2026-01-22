@@ -1,6 +1,6 @@
 package OOPS.Constructor;
 
-import OOPS.Employee;
+
 
 class Employeee {
     private int id;
@@ -29,7 +29,6 @@ public class Constructor1 {
         Employeee employeee = new Employeee(1, "John", 5000);
         Employeee employeee1 = new Employeee(1, "Han", 5000);
         Employeee employeee2 = new Employeee(1, "Rock", 5000);
-        Employee employ = new Employee();
         employeee.display();
         System.out.println("--------------------");
         employeee1.display();
