@@ -34,6 +34,8 @@ public class Upcasting_1 {
         CleaningRobot cleanRobo = new CleaningRobot();
         operateRobo(cleanRobo);
 
+        System.out.println();
+
         IndustrialRobot indRobo = new IndustrialRobot();
         operateRobo(indRobo);
     }
