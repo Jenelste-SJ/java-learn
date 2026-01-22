@@ -15,13 +15,27 @@ class Robot {
     }
 }
 
+class CleaningRobot extends Robot {
+    @Override
+    public void tasks() {
+        System.out.println("Cleaning robots clean floors and surfaces efficiently!");
+    }
+}
+
+class IndustrialRobot extends Robot {
+    @Override
+    public void tasks() {
+        System.out.println("Industrial robots complete industrial tasks efficiently!");
+    }
+}
+
 public class Upcasting_1 {
     public static void main(String[] args) {
-        Robot robo = new Robot();
-        operateRobo(robo);
+        CleaningRobot cleanRobo = new CleaningRobot();
+        operateRobo(cleanRobo);
 
-        Robot robo2 = new Robot();
-        operateRobo(robo2);
+        IndustrialRobot indRobo = new IndustrialRobot();
+        operateRobo(indRobo);
     }
 
     public static void operateRobo(Robot robo) {
@@ -30,4 +44,3 @@ public class Upcasting_1 {
         robo.tasks();
     }
 }
-
