@@ -39,19 +39,24 @@ public class DownCasting {
 
     public static void main(String[] args) {
 
-        Parent p;
-
         Child1 c1 = new Child1();
-        p = c1;
-        p.eat();
-        p.readsBook();
-        ((Child1) p).swim();
+        display(c1);
 
         Child2 c2 = new Child2();
-        p = c2;
+        display(c2);
+    }
+
+    public static void display(Parent p) {
+
         p.eat();
         p.readsBook();
-        ((Child2) p).dance();
+
+        if (p instanceof Child1) {
+            ((Child1) p).swim();
+        } else {
+            ((Child2) p).dance();
+        }
     }
 }
+
 
