@@ -1,7 +1,7 @@
 package OOPS.Interface;
 
 interface MainInterface {
-    public final static int a = 19;
+    public  static final int a = 19;
     void display();
     static void display1() {
         System.out.println("display1");
