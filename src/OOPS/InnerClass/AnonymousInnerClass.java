@@ -6,23 +6,25 @@ interface ClickListener {
 
 class Button {
     private String label;
-    private ClickListener listener;
 
     public Button(String label) {
         this.label = label;
     }
 
     public void click() {
-        System.out.println("Clicking button " + label + "...");
-        if (listener != null) {
-            listener.onClick();
-        }
+        System.out.println("Clicking button " + label + "");
     }
 
     public void setClickListener(ClickListener listener) {
-        this.listener = listener;
+        listener = new ClickListener() {
+            public void onClick() {
+                System.out.println("Button " + label + " was clicked");
+            }
+        };
+        listener.onClick();
     }
 }
+
 
 public class AnonymousInnerClass {
     public static void main(String[] args) {
@@ -35,7 +37,6 @@ public class AnonymousInnerClass {
                 System.out.println("Submit button clicked");
             }
         });
-
         submitButton.click();
     }
 }
