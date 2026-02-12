@@ -24,7 +24,7 @@ public class lambda {
         Program1 p1 = () -> System.out.println("Hello World 1");
         p1.display();
 
-
+        //single expression with single parameter
         Program2 p2 = a -> System.out.println("Hello World 2");
         p2.display(5);
 
