@@ -2,21 +2,24 @@ package com.learn.DSA;
 
 import java.util.Scanner;
 
-public class Array_3D {
+public class Array_3D_Jagged {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the number of colleges");
         int c = sc.nextInt();
+        int[][][] marks = new int[c][][];
 
-        System.out.println("Enter the number of classes");
-        int cls = sc.nextInt();
+        for(int i = 0; i < marks.length; i++){
+            for(int j = 0; j < marks[i].length; j++){
+
+            }
+        }
 
         System.out.println("Enter the number of students");
         int std = sc.nextInt();
 
-        int[][][] marks = new int[c][cls][std];
+
 
         // Taking input
         for (int i = 0; i < marks.length; i++) {
@@ -43,6 +46,5 @@ public class Array_3D {
             System.out.println();
         }
 
-        sc.close();
     }
 }
