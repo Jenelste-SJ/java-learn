@@ -1,4 +1,4 @@
-package com.learn.DSA;
+package com.learn.DSA.Array;
 
 import java.util.Scanner;
 

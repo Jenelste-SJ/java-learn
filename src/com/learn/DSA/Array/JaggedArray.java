@@ -1,11 +1,13 @@
-package com.learn.DSA;
+package com.learn.DSA.Array;
 
 import java.util.Scanner;
-//2D Regular Array
-public class Array_2D {
+
+public class JaggedArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int[][] arr = new int[2][2];
+        int[][] arr = new int[2][];
+        arr[0] = new int[2];
+        arr[1] = new int[3];
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
