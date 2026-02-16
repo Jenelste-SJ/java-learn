@@ -6,18 +6,25 @@ public class Array_3D_Jagged {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        //Object creation
         System.out.println("Enter the number of colleges");
         int c = sc.nextInt();
         int[][][] marks = new int[c][][];
 
-        for(int i = 0; i < marks.length; i++){
-            for(int j = 0; j < marks[i].length; j++){
 
-            }
+        for(int i = 0; i < marks.length; i++){
+            System.out.println("Enter the number of classes in college " +(i+1));
+            int cl=sc.nextInt();
+            marks[i]=new int[cl][];
         }
 
-        System.out.println("Enter the number of students");
-        int std = sc.nextInt();
+        for(int i = 0; i < marks.length; i++){
+            for(int j = 0; j < marks[i].length; j++){
+                    System.out.println("Enter the number students in class" + (j+1) + " of college " + (i+1) + ":");
+                    int s= sc.nextInt();
+                    marks[i][j] = new int[s];
+            }
+        }
 
 
 
