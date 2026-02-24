@@ -21,7 +21,6 @@ class Manager extends Employee {
 public class Method_Hiding {
     public static void main(String[] args) {
 
-        Person person = new Person();
         Employee employee = new Employee();
         Manager manager = new Manager();
 

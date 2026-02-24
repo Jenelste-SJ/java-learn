@@ -7,10 +7,12 @@ class Course {
 
 
     public Course(String courseName) {
+
         this(courseName, "UNSET", 100);
     }
 
     public Course(String courseName, String courseCode) {
+
         this(courseName, courseCode, 100);
     }
 
