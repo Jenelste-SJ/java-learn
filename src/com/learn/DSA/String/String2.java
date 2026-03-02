@@ -10,7 +10,6 @@ public class String2 {
         // Ask user for input string
         System.out.println("Enter a string:");
         String s = scanner.nextLine();
-
         // Check if the string starts with "Hello"
         System.out.println("Does the string start with \"Hello\"? " + s.startsWith("Hello"));
 
