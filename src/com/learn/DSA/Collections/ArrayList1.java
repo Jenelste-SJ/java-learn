@@ -23,7 +23,7 @@ public class ArrayList1 {
 
         //every value is an object
         for(Object o : a){
-            System.out.println(o);
+            System.out.print(o+" ");
         }
 
         //new arrayList
