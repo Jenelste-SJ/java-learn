@@ -16,14 +16,14 @@ public class StringReverse {
         StringBuffer sb = new StringBuffer();
         for(int i=0;i<arr.length;i++){
             String s = arr[i];
-            char[] chars = s.toCharArray();
-            char[] chArr = new char[s.length()];
-            int k=chArr.length-1;
+            char[] charArray = s.toCharArray();
+            char[] revArr = new char[s.length()];
+            int k= revArr.length-1;
             for(int j=0;j<s.length();j++){
-                chArr[j] = chars[k];
+                revArr[j] = charArray[k];
                 k--;
             }
-            sb.append(chArr);
+            sb.append(revArr);
             if(i!=arr.length-1){
                 sb.append(" ");
             }
