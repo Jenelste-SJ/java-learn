@@ -28,6 +28,7 @@ public class ArrayList1 {
 
         //new arrayList
         ArrayList a1 = new ArrayList();
+        a1.add(70);
         a1.add("hello");
         a1.add("me");
 
@@ -38,5 +39,14 @@ public class ArrayList1 {
         System.out.println(a1);
         //check if the value contains
         System.out.println(a1.contains("hello"));
+
+        //retain the elements in a1
+        a.retainAll(a1);
+        System.out.println(a);
+
+        //remove, all elements that are common
+        a1.removeAll(a);
+        System.out.println(a1);
+
     }
 }
