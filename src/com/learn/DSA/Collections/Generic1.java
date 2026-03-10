@@ -1,19 +1,21 @@
 package com.learn.DSA.Collections;
 
+
+
 public class Generic1 {
     public static void main(String[] args) {
 
+        Student student = new Student("A");
+        System.out.println(student.getName());
     }
 }
-class Generic2 {
-    String  name;
-    int age;
+class Student<T> {
+    T name;
 
-    public int getAge() {
-        return age;
+    public Student(T name) {
+        this.name = name;
     }
-
-    public String getName() {
+    public T getName() {
         return name;
     }
 }
