@@ -48,5 +48,6 @@ public class ArrayList1 {
         a1.removeAll(a);
         System.out.println(a1);
 
+
     }
 }
