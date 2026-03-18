@@ -20,7 +20,7 @@ interface Program4 {
 }
 public class lambda {
     public static void main(String[] args) {
-        //if it is single expression no paranthesis
+        //if it is single expression no parameter
         Program1 p1 = () -> System.out.println("Hello World 1");
         p1.display();
 
