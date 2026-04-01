@@ -13,10 +13,12 @@ class Employee1 implements Comparable<Employee1> {
         this.salary = salary;
     }
 
+    @Override
     public String toString() {
         return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
     }
 
+    @Override
     public int compareTo(Employee1 emp2) {
         Employee1 emp1 = this;
         String n1 = emp1.name;
